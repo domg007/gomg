@@ -1,1 +1,3 @@
-alert("success");
+function test() {
+  alert("success");
+}
