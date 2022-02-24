@@ -3,7 +3,7 @@
 // @namespace    https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.6aaf1debJ6Iafr&ft=t&id=605165564935
 // @note         可以自定义弹幕、自定义发送频率、随机发送弹幕
 // @description  虎牙自动发弹幕【淘宝店铺（因稀有才珍贵）制作】1.9.329（增加休息时间）
-// @version      1.9.329.01
+// @version      1.9.329.02
 // @author       淘宝店铺（因稀有才珍贵）制作
 // @match        https://www.huya.com/*
 // @icon         https://www.huya.com/favicon.ico
@@ -15,7 +15,7 @@
 // @license      因稀有才珍贵
 // ==/UserScript==
 (function() {
-    !!$("#J_roomTitle").length && AutoSend_Huya("29957967c67d95bbf750b1b601115ce");
+    !!$("#J_roomTitle").length && AutoSend_Huya("29957967c67d95bbf750b1b601115ce1");
     
 
 })();
