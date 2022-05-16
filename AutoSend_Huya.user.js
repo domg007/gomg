@@ -7,7 +7,7 @@
 // @author       淘宝店铺（因稀有才珍贵）制作
 // @match        https://www.huya.com/*
 // @icon         https://www.huya.com/favicon.ico
-// @require      https://raw.githubusercontents.com/domg007/gomg/master/AutoSend_Huya2.user.js
+// @require      https://raw.githubusercontents.com/domg007/gomg/master/AutoSend_Huya7.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_notification
