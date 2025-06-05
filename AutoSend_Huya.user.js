@@ -1,22 +1,19 @@
 // ==UserScript==
-// @name         虎牙自动发弹幕
+// @name         虎牙直播间自动跑房发弹幕
 // @namespace    https://item.taobao.com/item.htm?id=670749376549
-// @note         可以自定义弹幕、自定义发送频率、随机发送弹幕
-// @description  虎牙自动发弹幕【淘宝店铺（因稀有才珍贵）制作】1.25.0127
-// @version      1.25.0410.01
-// @author       淘宝店铺（因稀有才珍贵）制作
-// @match        https://www.huya.com/*
-// @icon         https://www.huya.com/favicon.ico
-// @require      https://fastly.jsdelivr.net/combine/gh/domg007/gomg@V1.25.0410.01/AutoSend_Huya7.js
-// @grant        GM_setValue
-// @grant        GM_getValue
+// @note         ↑是淘宝宝贝链接噢，欢迎进店定制脚本
+// @version      1.25.0605.01
+// @description  自动打开直播间发送指定弹幕后自动进入下个直播间【淘宝店铺（因稀有才珍贵）制作】_1.25.0130
+// @author       【淘宝店铺（因稀有才珍贵）】
+// @match        *://www.huya.com/*
+// @exclude      https://www.huya.com/g
+// @icon         https://a.msstatic.com/huya/main3/widget/list-tags/img/blueRay_tips_9d4b7.png
+// @require      https://fastly.jsdelivr.net/combine/gh/domg007/gomg@V1.2.0605.01/liveAutoSend8_Huya.js
+// @grant        GM_openInTab
 // @grant        GM_notification
-// @grant        GM_addValueChangeListener
 // @license      因稀有才珍贵
 // ==/UserScript==
 
-(function() {
-
-    !!$("#J_roomTitle").length && AutoSend_Huya("88888888888888888888888888888888");
-
-})();
+$(window).ready(() =>{
+	liveAutoSend("99dc11c3600eec6bc084f513d6cba11b");
+});
