@@ -7,7 +7,7 @@
 // @match        *://www.huya.com/*
 // @icon         https://huyaimg.msstatic.com/cdnimage/actprop/20279_1__45_1532856204.jpg
 // @grant        none
-// @require      https://fastly.jsdelivr.net/combine/gh/domg007/gomg@V1.2.0606.03/RemoveTimeLimit_Huya.js
+// @require      https://fastly.jsdelivr.net/combine/gh/domg007/gomg@V1.2.0606.05/RemoveTimeLimit_Huya.js
 // @license      因稀有才珍贵
 // ==/UserScript==
 (function() {
