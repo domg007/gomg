@@ -2,8 +2,8 @@
 // @name         虎牙自动发弹幕
 // @namespace    https://item.taobao.com/item.htm?id=670749376549
 // @note         可以自定义弹幕、自定义发送频率、随机发送弹幕
-// @description  虎牙自动发弹幕【淘宝店铺（因稀有才珍贵）制作】1.25.0608
-// @version      1.25.0608.01
+// @description  虎牙自动发弹幕【淘宝店铺（因稀有才珍贵）制作】1.25.0918
+// @version      1.25.0918.01
 // @author       淘宝店铺（因稀有才珍贵）制作
 // @match        https://www.huya.com/*
 // @icon         https://www.huya.com/favicon.ico
@@ -17,6 +17,6 @@
 
 (function() {
 
-    !!$("#J_roomTitle").length && AutoSend_Huya("caafb5b465488072122e621e016cee87");
+    !!$("#J_roomTitle").length && AutoSend_Huya("fb42f71ac213e458bcbe2f1f312ca738");
 
 })();
