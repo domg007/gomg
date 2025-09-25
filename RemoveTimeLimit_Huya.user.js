@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         虎牙发弹幕无限制
 // @namespace    https://greasyfork.org/
-// @version      1.0.0607.1700
+// @version      1.0.0927.0800
 // @description  无限制
 // @author       gomg
 // @match        *://www.huya.com/*
